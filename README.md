@@ -1,2 +1,15 @@
 # Hackathon-Courier-API-2022
-Joining Courier's first hackathon. With the Courier API, we can use for notifications and demonstration of proper app-to-user notifications. The project is still ongoing. We haven't decided of what app to create. Stay tuned by the end of Sept!!
+
+## Teammates
+
+<!-- <img src = "https://drive.google.com/uc?export=view&id=1OhRVyPeI7JlxMvfXcRgMj5jsJciS3iyc" alt = "My picture" width = 700/> -->
+
+<br>
+
+## 1-2 mins video
+
+## Description of the project
+
+## Inspiration behind the project
+
+## Explanation of problem it solves
