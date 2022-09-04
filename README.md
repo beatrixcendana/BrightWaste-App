@@ -2,7 +2,7 @@
 
 ## Teammates
 
-<!-- <img src = "https://drive.google.com/uc?export=view&id=1OhRVyPeI7JlxMvfXcRgMj5jsJciS3iyc" alt = "My picture" width = 700/> -->
+<img src = "https://drive.google.com/uc?export=view&id=1OhRVyPeI7JlxMvfXcRgMj5jsJciS3iyc" alt = "My picture" width = 700/>
 
 <br>
 
