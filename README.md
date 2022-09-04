@@ -1,4 +1,4 @@
-# Hackathon-Courier-API-2022
+# Introduce EzyTrip, Travel Planner App
 
 ## Teammates
 
