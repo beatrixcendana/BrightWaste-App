@@ -51,4 +51,14 @@ In this case, we focuses first on the business like restaurants and cafe. The pr
 - Having a hard time to find the promo related to specific restaurant
 - Getting many email spams when subscribing to the specific coupon website
 
+
+## Tools we used
+Github, VSCode, Notion, Google Slides, Figma
+
+##Technologies (API and Frontend) and how it is integrated
+
+##Challenges that we faced
+
+##What we enjoyed and learned
+
 Check out our [Devpost]() here -->
