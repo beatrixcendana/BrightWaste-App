@@ -53,7 +53,11 @@ In this case, we focuses first on the business like restaurants and cafe. The pr
 
 
 ## Tools we used
-Github, VSCode, Notion, Google Slides, Figma
+![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=social)&nbsp;&nbsp; 
+![VSCode](https://img.shields.io/badge/-Vscode-black?logo=visual-studio-code&style=social)&nbsp;&nbsp; 
+![Notion](https://img.shields.io/badge/-Notion-black?logo=notion&style=social)&nbsp;&nbsp; 
+![Figma](https://img.shields.io/badge/-Figma-black?logo=figma&style=social)&nbsp;&nbsp; 
+
 
 ##Technologies (API and Frontend) and how it is integrated
 
