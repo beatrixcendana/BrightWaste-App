@@ -38,7 +38,7 @@ Source: [Toasttab](https://pos.toasttab.com/blog/on-the-line/restaurant-marketin
 
 
 ## Explanation of problem it solves
-In this case, we focuses first on the business like restaurants and cafe. The problems we are trying to solve:
+In this case, we focuses first on the business like restaurants and cafe. The problems we are trying to solve with our app/website:
 ### For business owners:
 - Having a tech savvy issue while creating and maintaining their own website
 - Hiring designers to custom their website might be quite expensive
@@ -46,7 +46,7 @@ In this case, we focuses first on the business like restaurants and cafe. The pr
 
 ### For customers:
 - Having a hard time to find all information related to business in one page
-- Having trust issue due to the website design
+- Having trust issue due to the website design (inconsistent design)
 - Getting overwhelmed with many recommended options out there 
 - Having a hard time to find the promo related to specific restaurant
 - Getting many email spams when subscribing to the specific coupon website
