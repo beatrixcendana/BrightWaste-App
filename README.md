@@ -9,7 +9,7 @@ Starting a business is a sort of hassle for most business owners. Even though th
 - The website doesn’t provide enough credibility to customers
 - The business owners don’t know how to promote their business due to a lack of marketing skill </strong>
 
-That’s why we provide EzyBusiness, which helps business owners to develop their website for free and the URL that specifically has all of the marketing thing related to the business.
+That’s why we provide EzyBusiness, which helps business owners to develop their website for FREE and this website specifically has all of the marketing thing related to the business. Additionally, we provide the business owners to create their own subscription form. 
 
 ## Target and Location
 - Small business owners in Lacey, WA state, US
