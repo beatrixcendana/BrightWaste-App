@@ -51,6 +51,14 @@ In this case, we focuses first on the business like restaurants and cafe. The pr
 - Having a hard time to find the promo related to specific restaurant
 - Getting many email spams when subscribing to the specific coupon website
 
+## What makes us different with other competitors (Linktree, Groupon, Google Business, Wix)
+- We have all that you need, including the business links, social media links, and business owners can even add their video from YouTube
+- We don't charge the price for standar customization (we plan no charge for up to 3 web design choices)
+- No more hassle in designing the website or even having a hard time to hire the professional web designers
+- Business owners don't have to worry where the customers would find out about them. With one link, everything about the business would be in there
+- We include PROMO and email subscription if users want to get updated about the business' promo without spamming the customer's email
+- Get the most updated of the business from the customized website and the email subscription
+
 
 ## Tools we used
 ![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=social)&nbsp;&nbsp; 
@@ -62,6 +70,11 @@ In this case, we focuses first on the business like restaurants and cafe. The pr
 ##Technologies (API and Frontend) and how it is integrated
 
 ##Challenges that we faced
+
+##What the future of this web
+- Include the discussion (like Reddit but for the business owners and entrepreneurs that just started their journey)
+- Market our website to more broader business owners and prospective customers
+- Fix some bugs 
 
 ##What we enjoyed and learned
 
