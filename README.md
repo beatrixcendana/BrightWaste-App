@@ -42,6 +42,8 @@ In this case, we focuses first on the business like restaurants and cafe. The pr
 ### For business owners:
 - Having a tech savvy issue while creating and maintaining their own website
 - Hiring designers to custom their website might be quite expensive
+- The price of the web custom builder is quite expensive due to the different renewal prices
+- Most website doesn't have their own subscription (especially restaurant)
 - Managing social media is quite difficult especially to increase the traffic or click rate
 
 ### For customers:
@@ -52,7 +54,7 @@ In this case, we focuses first on the business like restaurants and cafe. The pr
 - Getting many email spams when subscribing to the specific coupon website
 
 ## What makes us different with other competitors (Linktree, Groupon, Google Business, Wix)
-- We have all that you need, including the business links, social media links, and business owners can even add their video from YouTube
+- We have all that you need, including the business links, social media links, and business owners can even add their video from YouTube. You just need to add it and we will do the rest.
 - We don't charge the price for standar customization (we plan no charge for up to 3 web design choices)
 - No more hassle in designing the website or even having a hard time to hire the professional web designers
 - Business owners don't have to worry where the customers would find out about them. With one link, everything about the business would be in there
