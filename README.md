@@ -25,7 +25,7 @@ That’s why we provide <strong> EcoValue, which helps people to get plenty of i
 - Old people (50+ years old) who has crafted mind
 
 ## Inspiration behind the project
-Beatrix loves to do DIY in her own time. So, she thought of driving her car to a materials store close to her area to buy some wood to build a new shelf. Luckily, not only getting his wood to make the shelf, but Beatrix also got a chance to interview a worker in the shop and two other people that are around in the same shop. 
+Beatrix loves to do DIY in her own time. So, she thought of driving her car to a materials store close to her area to buy some wood to build a new shelf. She was disappointed how much waste of the furniture that was left off in the store and nobody picks it up even for free. Luckily, not only getting his wood to make the shelf, but Beatrix also got a chance to interview a worker in the shop and two other people that are around in the same shop. 
 
 <img src = "https://drive.google.com/uc?export=view&id=18pWIHVzRIiUCXJvK8I2MMCAFueGWPaDC" alt = "user compare" width = 700/>
 
@@ -46,14 +46,26 @@ To support the argument from above, we tried to do secondary research. Based on 
 Source: [IBM](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research), [Dosomething](https://www.dosomething.org/us/facts/11-facts-about-recycling), and [NCSU](https://content.ces.ncsu.edu/before-you-recycle-choose-to-reuse), [Weforum](https://www.weforum.org/agenda/2022/06/recycling-global-statistics-facts-plastic-paper/), and Unsplash (Picture)
 
 
-### What makes us different with other competitors ()
-We also did depper analysis on the competitors.
+### What makes us different with other competitors
+We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace, and Shpock.com (UK competitors). What makes us different?
+- We provide the DIY steps in detail so sellers know how to recycle their used materials efficiently. 
+- Earn extra money while at the same time helping the environment by reducing waste.
+- Provide a safe transaction because you don't directly sell the products to individuals. Instead, you sell it to the store which has provided CCTV, and it will avoid any scam transactions.
 
 
 ## Explanation of problem it solves
+### For government:
+- Problems with managing the used materials
+- No education is provided to citizens on how to manage the waste. It's only in the newsletter, and people have zero interest in it.
 
-### For 
+### For seller:
+- No idea how to recycle the materials
+- Scam transaction (in-person sale)
+- Extra money issue (most websites provide easily earning money and people get scammed)
 
+### For the buyer:
+- Get notified if there is a promo for the recycled materials without getting lots of subscription emails (we target it is only twice a month of subscription emails being sent out to buyers)
+- Help the community to build a better environment by purchasing products from the local neighborhood
 
 
 ## Tools we used
@@ -68,9 +80,17 @@ We also did depper analysis on the competitors.
 ## Challenges that we faced
 
 ## What the future of this web
-- 
+- Implement the app so the potential seller can take a picture of their item before they sell it all from the phone.
+- If the web app gets more attention in the US, we are trying to create this in Indonesia (where we come from), which has more waste issues due to poor waste management and lack of environmental awareness.
+- Implement the payment system and work with stores that sell recycled stuff, such as building material shops or thrift stores.
+Get notified when there is a selling challenge around them.
+
 
 ## What we enjoyed and learned
+- <strong> Building the app web within two weeks of the timeframe </strong>
+> Due to our hectic time (work and study), we have to try our best to create an app that can benefit society. That's why we keep changing our ideas many times. We also struggle with our timezone difference (PST and WIB time). 
+- <strong> Finding ideas and aligning the goals within the team </strong>
+> We agree sometimes it is not easy to align one's purpose with another. We had to do a short pitch for others to understand what products we were trying to build.
 
 Check out our [Devpost]() here -->
 
