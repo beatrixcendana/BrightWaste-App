@@ -18,7 +18,7 @@ In the current situation with waste, we need to figure out how to recycle the wa
 
 It could be easier to sell it for a lower price directly, but instead of doing so, why don't we turn it into something more meaningful and can have more value to it? It doesn't only impact the earth; also, we can contribute to the economy cycle. 
 
-That’s why we provide <strong> EcoValue, which helps people to get plenty of ideas how to recycle their stuff and we help them to sell it for better price. </strong>
+That’s why we provide <strong> BrightWaste, which helps people to get plenty of ideas on how to recycle their stuff and lets the potential seller get notified when they can sell the products for a better price. </strong>
 
 ## Target and Location
 - Students in Lacey, WA state, US (20-28 years old) who want to earn some money to pay for their tuition
@@ -43,8 +43,6 @@ To support the argument from above, we tried to do secondary research. Based on 
 
 - People prefer to buy the new material rather than use the reclaimed materials or used materials. It can tell from the number of customers bought the new one vs the used one.
 
-Source: [IBM](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research), [Dosomething](https://www.dosomething.org/us/facts/11-facts-about-recycling), and [NCSU](https://content.ces.ncsu.edu/before-you-recycle-choose-to-reuse), [Weforum](https://www.weforum.org/agenda/2022/06/recycling-global-statistics-facts-plastic-paper/), and Unsplash (Picture)
-
 
 ### What makes us different with other competitors
 We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace, and Shpock.com (UK competitors). What makes us different?
@@ -54,19 +52,17 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 
 
 ## Explanation of problem it solves
-### For government:
+### For government and waste department:
 - Problems with managing the used materials
-- No education is provided to citizens on how to manage the waste. It's only in the newsletter, and people have zero interest in it.
+- No enough education provided to citizen how to manage the waste. It's only on the newsletter and people have zero interest to it.
 
-### For seller:
-- No idea how to recycle the materials
-- Scam transaction (in-person sale)
-- Extra money issue (most websites provide easily earning money and people get scammed)
+### For society:
+- No idea how to recycle the materials and turn it into something better.
+- Scam in-person transaction (e,g., the buyer offers more than the listed price) - every payment will go through the online system.
+- Extra money issue (most websites provide earning money in easy way and people get scammed).
+<img src = "https://drive.google.com/uc?export=view&id=1zMZ9a0X9ZIfhsENoCU5XxcxgCJm-o7Dc" alt = "App features" width = 700/>
 
-### For the buyer:
-- Get notified if there is a promo for the recycled materials without getting lots of subscription emails (we target it is only twice a month of subscription emails being sent out to buyers)
-- Help the community to build a better environment by purchasing products from the local neighborhood
-
+<br>
 
 ## Tools we used
 ![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github&style=social)&nbsp;&nbsp; 
@@ -78,6 +74,10 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 ## Technologies (API and Frontend) and how it is integrated
 
 ## Challenges that we faced
+- **For a designer, backing up to be a front-end dev**
+Since we are running out of time, designer has to help the dev working on the code.
+-**Creating a scenario that makes sense**
+To make sure others understand what we are building, we were thinking to create the scenario that makes the app flow better. (The scenario was explained in the little video that we created above)
 
 ## What the future of this web
 - Implement the app so the potential seller can take a picture of their item before they sell it all from the phone.
@@ -91,6 +91,9 @@ Get notified when there is a selling challenge around them.
 > Due to our hectic time (work and study), we have to try our best to create an app that can benefit society. That's why we keep changing our ideas many times. We also struggle with our timezone difference (PST and WIB time). 
 - <strong> Finding ideas and aligning the goals within the team </strong>
 > We agree sometimes it is not easy to align one's purpose with another. We had to do a short pitch for others to understand what products we were trying to build.
+- **Learning the next.js and implementing the Courier API at the same time**
+
+Source: [IBM](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research), [Dosomething](https://www.dosomething.org/us/facts/11-facts-about-recycling), and [NCSU](https://content.ces.ncsu.edu/before-you-recycle-choose-to-reuse), [Weforum](https://www.weforum.org/agenda/2022/06/recycling-global-statistics-facts-plastic-paper/), [Iconscout](https://iconscout.com/) and Unsplash (Picture).
 
 Check out our [Devpost]() here -->
 
