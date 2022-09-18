@@ -1,7 +1,7 @@
 Working on it
 
 <!-- # Introduce BrightWaste - Courier Hacks 2022
-## A Sustainable Marketplace Website that can give people options either to sell it directly to the shop or to recycle the items and sell it for a better price 
+## A Sustainable Marketplace Website that can give people options either to sell it directly to the shop or to upcycle the discarded items and sell it for a better price 
 
 ## Teammates
 
@@ -82,7 +82,7 @@ To make sure others understand what we are building, we were thinking to create 
 ## What the future of this web
 - Implement the app so the potential seller can take a picture of their item before they sell it all from the phone.
 - If the web app gets more attention in the US, we are trying to create this in Indonesia (where we come from), which has more waste issues due to poor waste management and lack of environmental awareness.
-- Implement the payment system and work with stores that sell recycled stuff, such as building material shops or thrift stores.
+- Implement the payment system and work with stores that sell used stuff, such as building material shops or thrift stores.
 Get notified when there is a selling challenge around them.
 
 
