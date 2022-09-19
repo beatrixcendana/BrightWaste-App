@@ -2,8 +2,6 @@ import Image from 'next/image';
 import LogoUrl from '../public/images/logo.png';
 import '../styles/Layout.module.css';
 
-import styles from '../styles/Layout.module.css';
-
 const Header = () => {
     return (<nav className="navbar navbar-expand-lg navbar-light bg-white">
         

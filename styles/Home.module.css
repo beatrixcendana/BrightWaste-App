@@ -1,0 +1,160 @@
+/*
+
+DISCLOSURE:
+
+THIS IS CSS OF LANDING PAGE
+TO STYLE A CLASS FROM HOME (INDEX.JS).
+YOU SHOULD USE A FORMAT LIKE BELOW 
+
+in this css file
+.[classname]
+
+in index.js file
+className={styles.classname}
+
+remember to make the same class
+between those 
+two files
+
+Notes: 
+Please add new class name styling base with
+section name comments 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+
+/* 1. LANDING ON TOP*/
+.head {
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.search {
+    background-color: #469D8C26;
+    padding: 12px 14px;
+    border-radius: 12px;
+    width: 1041px;
+}
+
+.input {
+    background-color:transparent !important;
+    border:none !important;
+    background: transparent;
+    width: 800px;
+}
+
+.LocationInput {
+    background-color:transparent !important;
+    border:none !important;
+    background: transparent;
+    width: 100px;
+}
+
+.input:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.BtnFindOut {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFF;
+    line-height: 48px;
+    padding: 12px 32px;
+    gap: 10px;
+    background-color: #469D8C;
+    border-radius: 15px;
+    border: 0;
+}
+
+.BtnFindOut:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* SECTION 2. */
+.PicGuyClass {
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(28, 20, 141, 0.5));
+}
+
+.PicChangeClass {
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(28, 20, 141, 0.5));
+}
+
+.subhead {
+    font-family: 'Poppins';
+    font-style: 48px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #262261;
+}
+
+/* SECTION 3 */
+.header3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #262261;
+}
+
+.subheader3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.ViewMoreBtn {
+    width: 175px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    background: #469D8C;
+    border-radius: 15px;
+    color: #FFFFFF;
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+    margin-right: 22px;
+}
+
+.GetAnOfferBtn {
+    width: 300px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    background: #3C3871;
+    border-radius: 15px;
+    flex: none;
+    border: 0;
+    flex-grow: 0;
+}
+
+/* SECTION 4 WEEKLY TIPS */
+.DirectBtn {
+    background-color: #469D8C;
+    color: #FFF;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 16px;
+}

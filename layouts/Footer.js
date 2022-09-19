@@ -1,4 +1,3 @@
-import styles from '../styles/Layout.module.css';
 import FBIcon from '../public/images/Icon_Facebook.png';
 import GMailIcon from '../public/images/Icon_Gmail.png';
 import TWIcon from '../public/images/Icon_Twitter.png';
