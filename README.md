@@ -72,6 +72,10 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 
 
 ## Technologies (API and Frontend) and how it is integrated
+- **Framework: Next.js**
+- **Library: React.js**
+- **API: Firebase, Courier API**
+<img src = "https://drive.google.com/uc?export=view&id=1Q2TfvMK5F7Ma3WCW9KZd9qxnyUibRfVa" alt = "Flowchart" width = 700/>
 
 ## Challenges that we faced
 - **For a designer, backing up to be a front-end dev**
