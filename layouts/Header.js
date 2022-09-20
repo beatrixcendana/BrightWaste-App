@@ -22,20 +22,20 @@ const Header = () => {
             
             <ul className="navbar-nav ms-auto mt-2">
                 <li className="nav-item p-2 mt-2 mr-2">
-                    <a href="#!" className="nav-link headmenu" style={{ fontWeight: '700' }}>How it Works</a>
+                    <a href="#!" className="nav-link headmenu" style={{ fontSize: '24px', fontWeight: '500' }}>How it Works</a> {/* change font size and font weight */}
                 </li>
                 <li className="nav-item p-2 mt-2 mr-2">
-                    <a href="#!" className="nav-link headmenu" style={{ fontWeight: '700' }}>All Items</a>
+                    <a href="#!" className="nav-link headmenu" style={{ fontSize: '24px', fontWeight: '500' }}>All Items</a> {/* change font size and font weight */}
                 </li>
                 <li className="nav-item p-2 mt-2 mr-2">
-                    <a href="#!" className="nav-link headmenu" style={{ fontWeight: '700' }}>DIY Blog</a>
+                    <a href="#!" className="nav-link headmenu" style={{ fontSize: '24px',fontWeight: '500' }}>DIY Blog</a> {/* change font size and font weight */}
                 </li>
                 <li className="nav-item p-2 mt-2 mr-2">
-                    <a href="#!" className="nav-link headmenu" style={{ fontWeight: '700' }}>Contact Us</a>
+                    <a href="#!" className="nav-link headmenu" style={{ fontSize: '24px',fontWeight: '500' }}>Contact Us</a> {/* change font size and font weight */}
                 </li>
                 <li className="nav-item p-2 mt-2 mr-2">
                     <a href="#!" className="btn btn-md" 
-                    style={{ backgroundColor: '#262261E5', color: '#fff' }}>Join Us</a>
+                    style={{ backgroundColor: '#262261E5', color: '#fff', fontSize: '24px', width: '182px'}}>Join Us</a> {/* change button font size and button width */}
                 </li>
             </ul>
         

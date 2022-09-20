@@ -43,7 +43,7 @@ export default function Home() {
 
         <div className="col-12 col-md-6 col-lg-6 col-sm-6">
           <div className='text-center'>
-            <Image src={EarthImgUrl} width={400} height={400} />
+            <Image src={EarthImgUrl} width={591} height={677} /> {/* fix earth image size */}
           </div>
         </div>
 
@@ -51,7 +51,7 @@ export default function Home() {
           <p className={styles.head}>
             Get higher value for your used materials 
             and <span className="fw-bold">help earth to reduce
-            the waste </span>and <span className="fw-bold">lead society to
+            the waste </span> and <span className="fw-bold">lead society to
             a brighter future</span> 
           </p>
 
@@ -60,11 +60,11 @@ export default function Home() {
               <div className='input-group'>
 
                 {/* TEXTFIELD INPUT ITEM NAME */}
-                <Image src={SearchIconUrl} width={20} height={20}/>
+                <Image src={SearchIconUrl} width={40} height={40}/> {/* fix searchicon size */}
                 <input placeholder="What type of stuff are you looking for?" className={styles.input} />
 
                 {/* TEXTFIELD SET LOCATION */}
-                <Image src={LocationIconUrl} width={20} height={20}/>
+                <Image src={LocationIconUrl} width={40} height={40}/> {/* fix locationicon size */}
                 <input placeholder="Location" className={styles.LocationInput} />
 
               </div>
@@ -76,9 +76,12 @@ export default function Home() {
           </div>
 
           <div className='row mt-4 mb-4'>
-            <Image src={PotImgUrl} width={219} height={219} className='rounded mx-auto d-block me-3'/>
+          <Image src={PotImgUrl} width={219} height={219} className= {styles.PotImgUrl}/>
+          <Image src={WasteImgUrl} width={219} height={219} className= {styles.WasteImgUrl}/> {/* margin not working, image cluttered */}
+          <Image src={CommunityImgUrl} width={219} height={219} className= {styles.CommunityImgUrl}/> {/* margin not working, image cluttered */}
+            {/* <Image src={PotImgUrl} width={219} height={219} className='rounded mx-auto d-block me-3'/>
             <Image src={WasteImgUrl} width={219} height={219} className='rounded mx-auto d-block me-3'/>
-            <Image src={CommunityImgUrl} width={219} height={219} className='rounded mx-auto d-block'/>
+            <Image src={CommunityImgUrl} width={219} height={219} className='rounded mx-auto d-block'/> */}
           </div>
 
 
@@ -89,7 +92,6 @@ export default function Home() {
       {/* SECTION 2 HOW IT WORKS */}
       <div className='row mt-5 mb-4'>
         <div className='col-6 col-lg-6 col-md-6 col-sm-6'>
-
           <div className='text-center mt-4 mb-4'>
             <Image src={PicGuyImgUrl} className={styles.PicGuyClass} width={413} height={413}/>
             <Image src={PicChangeImgUrl} className={styles.PicChangeClass} width={414} height={413}/>
@@ -104,30 +106,31 @@ export default function Home() {
           {/* CARD DESCRIBE */}
           <div className="card" style={{ 
             backgroundColor: '#C0ECE3',
-            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)'
-          }}>
+            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)', width:'841px'
+          }}> {/* fix card size */}
             <div className='card-body'>
               <div className='row'>
                 <div className='input-group'>
                   <Image src={IconDescribeUrl} width={40} height={40} />
-                  <p className='lead ms-3'>
+                  <p className='lead ms-3' style = {{marginTop: '16px', marginBottom: '16px'}}> {/* fix card 1 text */}
                   Describe the items and condition of the item you would 
                   like to sell.
                   </p>
                 </div>
+
               </div>
             </div>
           </div>
           {/* CARD PICTURE */}
           <div className="card mt-4" style={{ 
             backgroundColor: '#B6E5FF',
-            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)'
-          }}>
+            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)', width:'841px' 
+          }}> {/* fix card size */}
             <div className='card-body'>
               <div className='row'>
                 <div className='input-group'>
-                  <Image src={IconPictureUrl} width={40} height={40} />
-                  <p className='lead ms-3'>
+                  <Image src={IconPictureUrl} width={40} height={28.27} /> {/* fix IconPict size but not working */}
+                  <p className='lead ms-3' style = {{marginTop: '16px', marginBottom: '16px'}}> {/* fix card 2 text */}
                   Upload the clear picture of the item.
                   </p>
                 </div>
@@ -137,13 +140,13 @@ export default function Home() {
           {/* CARD SUBMIT */}
           <div className="card mt-4" style={{ 
             backgroundColor: '#C0ECE3',
-            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)'
-          }}>
+            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)', width:'841px'
+          }}> {/* fix card size */}
             <div className='card-body'>
               <div className='row'>
                 <div className='input-group'>
                   <Image src={IconSubmitUrl} width={40} height={40} />
-                  <p className='lead ms-3'>
+                  <p className='lead ms-3' style = {{marginTop: '16px', marginBottom: '16px'}}> {/* fix card 3 text */}
                   Submit to one of available stores with your estimated 
                   price or follow our DIY steps to improve your recycled items.
                   </p>
@@ -154,13 +157,13 @@ export default function Home() {
           {/* CARD MONEY */}
           <div className="card mt-4 mb-4" style={{ 
             backgroundColor: '#B6E5FF',
-            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)'
-          }}>
+            boxShadow: '5px 5px 4px rgba(28, 20, 141, 0.3)', width:'841px'
+          }}> {/* fix card size */}
             <div className='card-body'>
               <div className='row'>
                 <div className='input-group'>
                   <Image src={IconMoneyUrl} width={40} height={40} />
-                  <p className='lead ms-3'>
+                  <p className='lead ms-3' style = {{marginTop: '16px', marginBottom: '16px'}}> {/* fix card 4 text */}
                   Get a better offer from the store, sell, and earn the money!
                   </p>
                 </div>
@@ -172,7 +175,7 @@ export default function Home() {
 
       </div>
 
-      {/* SECTION 3 HOW IT WORKS */}
+      {/* SECTION 3 FEATURED COLLECTIONS */}
       <div className='row mt-5 mb-4'>
         <p className={styles.header3}>Featured Collections</p>
         <p className={styles.subheader3}>
@@ -180,10 +183,14 @@ export default function Home() {
         </p>
 
         <div className='text-center'>
-          <Image src={PicChairUrl} width={345} height={345} className='rounded mx-auto ms-4' />
+          <Image style={{ marginLeft: "0px" }} src={PicChairUrl} width={345} height={345} className={styles.PicChairUrl}/> {/* fix PicChairUrl size but not working */}
+          <Image style={{ marginLeft: "0px" }} src={PicBoardUrl} width={345} height={345} className={styles.PicBoardUrl}/> {/* fix PicBoardUrl size but not working */}
+          <Image style={{ marginLeft: "0px" }} src={PicPlaateUrl} width={345} height={345} className={styles.PicPlaateUrl}/> {/* fix PicPlaateUrl size but not working */}
+          <Image style={{ marginRight: "0px" }} src={PicWoodUrl} width={345} height={345} className={styles.PicWoodUrl}/> {/* fix PicWoodUrl size but not working */}
+          {/* <Image src={PicChairUrl} width={345} height={345} className='rounded mx-auto ms-4' />
           <Image src={PicBoardUrl} width={345} height={345} className='rounded mx-auto ms-4' />
           <Image src={PicPlaateUrl} width={345} height={345} className='rounded mx-auto ms-4' />
-          <Image src={PicWoodUrl} width={345} height={345} className='rounded mx-auto ms-4' />
+          <Image src={PicWoodUrl} width={345} height={345} className='rounded mx-auto ms-4' /> */}
         </div>
         
         <div className="text-center mt-4">
