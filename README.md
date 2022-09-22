@@ -34,7 +34,7 @@ The questions to all of them were the same:
 
 Of course, before the interview started, Beatrix introduced herself. She explained why she interviewed them - The reason was that she was interested in learning more about how people's behavior impacts how they use/reuse their stuff). And it was shocking to listen to their answers:
 
-<img src = "https://drive.google.com/uc?export=view&id=1AhInDbW5OjNvVmLlYgu2yEUvvFLEfJlM" alt = "their answer" width = 700/>
+<img src = "https://drive.google.com/uc?export=view&id=1_pp6paPuCSN_-gY92xHLKsOW726ob-n6" alt = "user compare" width = 500/>
 
 ## Research
 To support the argument from above, we tried to do secondary research. Based on the research from homedepot.com:
