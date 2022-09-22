@@ -46,7 +46,7 @@ To support the argument from above, we tried to do secondary research. Based on 
 
 ### What makes us different with other competitors
 We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace, and Shpock.com (UK competitors). What makes us different?
-- We provide the DIY steps in detail so sellers know how to recycle their used materials efficiently. 
+- We generate the DIY steps link for sellers so they know how to recycle their used materials efficiently. Additionally, we give another options if one option doesn't work.
 - Earn extra money while at the same time helping the environment by reducing waste.
 - Provide a safe transaction because you don't directly sell the products to individuals. Instead, you sell it to the store which has provided CCTV, and it will avoid any scam transactions.
 
