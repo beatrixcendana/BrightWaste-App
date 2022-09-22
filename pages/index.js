@@ -1,5 +1,11 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import { FcGoogle } from 'react-icons/fc';
+import { useRouter } from 'next/router';
+
+// firebase 
+import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
+import { firebaseApp } from '../firebase';
 
 // 1. LANDING PAGE (THE TOP)
 import Image from 'next/image';
@@ -28,26 +34,70 @@ import PicWoodUrl from '../public/images/Pict_wood4.jpg';
 import PicSust from '../public/images/Pict_sustainability1.jpg';
 import PicPlastic from '../public/images/Pict_plastic2.jpg';
 
+const SignInModal = () => {
+
+  const firebaseAuth = getAuth(firebaseApp);
+  const provider = new GoogleAuthProvider();
+
+  const router = useRouter();
+  
+  const signIn = async () => {
+    const { user } =  await signInWithPopup(firebaseAuth, provider)
+    const { refreshToken, providerData } = user;
+
+    localStorage.setItem('user', JSON.stringify(providerData));
+    localStorage.setItem('accessToken', JSON.stringify(refreshToken));
+
+    router.push('/dashboard');
+  }
+
+  return (
+  <div 
+    className='modal modal-alert bg-transparent py-5'
+    tabIndex="-1"
+    role="dialog"
+    id="signup"
+    >
+      <div className='modal-dialog modal-dialog-centered' role="document">
+        <div className='modal-content rounded-4 shadow'>
+          <div className='modal-body p-4 text-center'>
+            <h5 className='mb-0'>Sign / Login</h5>
+            <div className='mt-4 mb-4'>
+              <button className='btn btn-lg bg-primary text-white fw-bold'
+              onClick={signIn}
+              >
+                <span>Sign in with Google</span>
+                <FcGoogle fontSize={30}/>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function Home() {
+
   return (
     <div className="content">
       <Head>
         <title>Homepage</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
       </Head>
       {/* SECTION 1 LANDING PAGE (THE TOP) */}
-      
-      <div className="row mb-4 mt-4">
 
-        <div className="col-12 col-md-6 col-lg-6 col-sm-6">
+      <SignInModal/>
+
+      <div className="row mb-4 mt-4" style={{ marginTop: '15%', marginBottom: '5%' }}>
+
+        <div className="col-md-6 col-lg-6 col-sm-4">
           <div className='text-center'>
-            <Image src={EarthImgUrl} width={591} height={677} /> {/* fix earth image size */}
+            <Image src={EarthImgUrl} width={591} height={677} /> 
           </div>
         </div>
 
-        <div className="col-12 col-md-6 col-lg-6 col-sm-6">
+        <div className="col-md-6 col-lg-5 col-sm-12">
           <p className={styles.head}>
             Get higher value for your used materials 
             and <span className="fw-bold">help earth to reduce
@@ -70,7 +120,7 @@ export default function Home() {
               </div>
             </div>  
 
-            <div className='col-3 col-md-3 col-sm-3 col-lg-3 mt-3 mb-4'>
+            <div className='col-md-3 col-sm-12 col-lg-3 mt-3 mb-4'>
               <button className={styles.BtnFindOut}>Find Out</button>
             </div>
           </div>
@@ -90,16 +140,25 @@ export default function Home() {
       </div>
 
       {/* SECTION 2 HOW IT WORKS */}
-      <div className='row mt-5 mb-4'>
-        <div className='col-6 col-lg-6 col-md-6 col-sm-6'>
-          <div className='text-center mt-4 mb-4'>
+      <div className='row' style={{ marginTop: '5%', marginBottom: '5%' }}>
+        <div className='col-lg-6 col-md-6 col-sm-4'>
+          
+          <div className='text-center'>
+
+          <div style={{ marginLeft: '-100px' }}>
             <Image src={PicGuyImgUrl} className={styles.PicGuyClass} width={413} height={413}/>
+          </div>
+
+          <div style={{ marginLeft: '287px', marginTop: '-120px' }}>
             <Image src={PicChangeImgUrl} className={styles.PicChangeClass} width={414} height={413}/>
           </div>
-        
+
+          </div>
+
+
         </div>
         
-        <div className='col-6 col-lg-6 col-md-6 col-sm-6'>
+        <div className='col-lg-6 col-md-6 col-sm-4'>
 
           <p className={styles.subhead}>How it works?</p>
 
@@ -195,7 +254,10 @@ export default function Home() {
         
         <div className="text-center mt-4">
           <button className={styles.ViewMoreBtn}>View More</button>
-          <button className={styles.GetAnOfferBtn}>Get an offer</button>
+          <button className={styles.GetAnOfferBtn}
+          data-bs-toggle="modal"
+          data-bs-target="#signup"
+          >Get an offer</button>
         </div>
       </div>
 

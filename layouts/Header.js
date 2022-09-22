@@ -1,9 +1,26 @@
 import Image from 'next/image';
 import LogoUrl from '../public/images/logo.png';
+import React, { useEffect } from 'react';
+import { AiOutlineUser } from "react-icons/ai";
+
 import '../styles/Layout.module.css';
 
+import { userAccessToken } from '../utils/fetchUserDetails';
+
 const Header = () => {
-    return (<nav className="navbar navbar-expand-lg navbar-light bg-white">
+
+    const userAccessToken = "";
+
+    useEffect(() => {
+        async function fetchUserData() {
+            const accessToken = userAccessToken();
+            userAccessToken = accessToken;
+            
+            return userAccessToken;
+        }
+    }, [])
+
+    return (<nav className="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm">
         
         <Image src={LogoUrl} layout='fixed' width={200} height={50}/>
 
@@ -17,7 +34,6 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
         </button>
 
-            
         <div className='collapse navbar-collapse' id='menu-app'>
             
             <ul className="navbar-nav ms-auto mt-2">
@@ -33,10 +49,19 @@ const Header = () => {
                 <li className="nav-item p-2 mt-2 mr-2">
                     <a href="#!" className="nav-link headmenu" style={{ fontSize: '24px',fontWeight: '500' }}>Contact Us</a> {/* change font size and font weight */}
                 </li>
-                <li className="nav-item p-2 mt-2 mr-2">
-                    <a href="#!" className="btn btn-md" 
-                    style={{ backgroundColor: '#262261E5', color: '#fff', fontSize: '24px', width: '182px'}}>Join Us</a> {/* change button font size and button width */}
-                </li>
+                {
+                    userAccessToken != null ? 
+                    <li className='nav-item p-2 mt-2 mr-2'>
+                        <a href='#!' className='nav-link headmenu'>
+                           <AiOutlineUser fontSize={30}/>
+                        </a>
+                    </li> : 
+                    <li className="nav-item p-2 mt-2 mr-2">
+                        <a href="#!" className="btn btn-md" 
+                        style={{ backgroundColor: '#262261E5', color: '#fff', fontSize: '24px', width: '182px'}}>Join Us</a> {/* change button font size and button width */}
+                    </li>
+                }
+                
             </ul>
         
 
