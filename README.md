@@ -96,8 +96,8 @@ Get notified when there is a selling challenge around them.
 - <strong> Finding ideas and aligning the goals within the team </strong>
 > We agree sometimes it is not easy to align one's purpose with another. We had to do a short pitch for others to understand what products we were trying to build.
 - **Learning the next.js and implementing the Courier API at the same time**
+> Agile development process is what we take to finish up our project. We keep re-iterating again and again to make sure we are all in the same page, especially when it comes to implement the API and the framework that we use.
 
 Source: [IBM](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research), [Dosomething](https://www.dosomething.org/us/facts/11-facts-about-recycling), and [NCSU](https://content.ces.ncsu.edu/before-you-recycle-choose-to-reuse), [Weforum](https://www.weforum.org/agenda/2022/06/recycling-global-statistics-facts-plastic-paper/), [Iconscout](https://iconscout.com/) and Unsplash (Picture).
 
-Check out our [Devpost]() here -->
-
+-->
