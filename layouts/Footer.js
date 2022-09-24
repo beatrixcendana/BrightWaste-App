@@ -7,42 +7,57 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-    <footer className= 'navbar navbar-expand-lg' style={{ backgroundColor: '#E3F0EE'}}>
-        <div className='mx-auto'>
-            <ul className="navbar-nav">
-                <li className="nav-item">
-                    <a href="" className="nav-link text-dark">About Us</a>
-                </li>
-                <li className="nav-item">
-                    <a href="" className="nav-link text-dark">Join Us</a>
-                </li>
-                <li className="nav-item">
-                    <a href="" className="nav-link text-dark">Be a seller</a>
-                </li>
-                <li className="nav-item">
-                    <a href="" className="nav-link text-dark">My Account</a>
-                </li>
-                <li className="nav-item">
-                    <a href="" className="nav-link text-dark">Privacy Policy</a>
-                </li>
-            </ul>
-            
-            <EmailSubs/>
-            <Socials/>
+    <footer className={styles.FooterClass}>
 
-            <p className="text-center mt-3">
-                Made with ❤️
-            </p>
-        </div>
+        <nav className='navbar navbar-expand-md'>
+
+            <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
+                <div className='text-center mt-3 mb-3'>
+                  
+                    <ul className="navbar-nav" style={{ marginLeft: '40%' }}>
+                        <li className="nav-item">
+                            <a href="" className="nav-link text-dark">About Us</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="" className="nav-link text-dark">Join Us</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="" className="nav-link text-dark">Be a seller</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="" className="nav-link text-dark">My Account</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="" className="nav-link text-dark">Privacy Policy</a>
+                        </li>
+                    </ul>
+  
+                </div>
+
+                <EmailSubs/>
+                <Socials/>
+
+                <p className="text-center mt-3">
+                    Made with ❤️
+                </p>
+            </div>
+
+         
+        </nav>
+
     </footer>
 )
 }
 
 const EmailSubs = () => {
-    return (<div className="input-group mt-3">
-        <input type="text" className="form-control" placeholder="Enter email here to get latest update"/>
-        <button className="btn btn-md btn-outline-success" type="button">SUBSCRIBE</button>
-    </div>)
+    return (
+    <div className='container'>
+        <div className="input-group mt-3">
+            <input type="text" className="form-control" placeholder="Enter email here to get latest update"/>
+            <button className="btn btn-md btn-outline-success" type="button">SUBSCRIBE</button>
+        </div>
+    </div>
+    )
 }
 
 const Socials = () => {

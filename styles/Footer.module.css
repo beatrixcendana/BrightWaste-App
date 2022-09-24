@@ -1,7 +1,9 @@
-.footers {
-    position: static;
+.FooterClass {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    top: 1787px;
     bottom: 0;
-    display: flex;
-    flex-direction: column;
-left:0;
+    background: #E3F0EE;
 }
