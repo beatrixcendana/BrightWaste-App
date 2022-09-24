@@ -1,0 +1,7 @@
+.footers {
+    position: static;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+left:0;
+}

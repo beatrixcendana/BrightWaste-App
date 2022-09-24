@@ -1,11 +1,13 @@
 import FBIcon from '../public/images/Icon_Facebook.png';
 import GMailIcon from '../public/images/Icon_Gmail.png';
 import TWIcon from '../public/images/Icon_Twitter.png';
+import styles from '../styles/Footer.module.css';
 
 import Image from 'next/image';
 
 const Footer = () => {
-    return (<footer className='navbar navbar-expand-lg' style={{ backgroundColor: '#E3F0EE' }}>
+    return (
+    <footer className= 'navbar navbar-expand-lg' style={{ backgroundColor: '#E3F0EE'}}>
         <div className='mx-auto'>
             <ul className="navbar-nav">
                 <li className="nav-item">
@@ -32,7 +34,8 @@ const Footer = () => {
                 Made with ❤️
             </p>
         </div>
-    </footer>)
+    </footer>
+)
 }
 
 const EmailSubs = () => {
@@ -49,5 +52,6 @@ const Socials = () => {
         <Image src={TWIcon} width={40} height={40} />
     </div>)
 }
+
 
 export default Footer;
