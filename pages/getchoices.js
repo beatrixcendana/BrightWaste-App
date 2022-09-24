@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/getchoices.module.css';
 
 // import all images
+import Image from 'next/image';
 import SixDrawer from '../public/images/Pict 6_Drawer.jpg';
 import ShelfBook from '../public/images/Pict 7_ShelfBook.jpg';
 
@@ -54,15 +55,11 @@ export default function GetChoices() {
                
                 <div className= "HomeDepot3">
                     <p className={styles.HomeDpt3}>
-                    Instructions will be sent via email notification. 
-                    </p>
-                </div>
-
-                <div className= "HomeDepot4">
-                    <p className={styles.HomeDpt4}>
+                    Instructions will be sent via email notification.
                     Make sure to check your email in 24 hours.
                     </p>
                 </div>
+
                 
                 <button className={styles.BtnChoose}>Choose</button>
                     
@@ -87,17 +84,31 @@ export default function GetChoices() {
                     </p>
                 </div>
 
-                {/* DIY Choice #1 - the box doesn't want to go down and go center. I guess there is no more space or footer problem*/}
+                {/* DIY Choice #1 - whole blue box doesn't want to go down and go center. I guess because of the footer - not working*/}
           <div className= "card1" style={{ 
             backgroundColor: '#E3F0EE', width: '1000px',
-            height: '288px', borderRadius: '15px', left: '480px', top: '1051px'
+            height: '288px', borderRadius: '15px', left: '480px', top: '830px'
           }}> {/* fix card size */}
             <div className='card-body'>
               <div className='row'>
                 <div className='input-group'>
                   <p className= {styles.DiyTitle1} style = {{marginTop: '16px', marginLeft: '24px'}}> {/* fix card 1 text */}
-                  DIY CHOICE #1: Grey Drawer $45 - $55
+                    DIY CHOICE #1: Grey Drawer $45 - $55
                   </p>
+
+                  <p className= {styles.DiyDesc1} style = {{marginTop: '104px', marginLeft: '24px'}}> 
+                  Follow this <a className = {styles.hyperlink1} href = "https://www.recreateddesigns.com/2021/03/turn-broken-drawer-into-wood-shelve-diy/" target="_blank">step</a> to view more our easy steps. You can save this form
+                    and submit the offer later when you are done upcycling the product.
+                  </p>
+
+                    {/* Save button */}
+                  <button className={styles.BtnSave} style = {{marginTop: '194px', marginLeft: '24px'}}>Save</button>
+
+                    {/* Submit button */}
+                    <button className={styles.BtnSubmit1} style = {{marginTop: '194px', marginLeft: '189px'}}>Submit offer</button>
+                
+                    {/* Image1 can't be placed in the right side - not working*/}
+                    <Image src={SixDrawer} width={188} height={188} className= {styles.SixDrawer} style = {{float: 'right', marginLeft: '100px'}}/>
                 </div>
 
               </div>
