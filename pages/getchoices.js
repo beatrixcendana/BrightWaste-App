@@ -23,9 +23,9 @@ export default function GetChoices() {
                     </div>
                 
                     <div className={styles.LeftRight}>
-                        <p className = {styles.ChoicesDescribe}> {/* Describe text */}
+                        <button className = {styles.ChoicesDescribe}> {/* Describe text */}
                             Describe
-                        </p>
+                        </button>
                         <p className= {styles.GetChoice}> {/* get choices text */}
                             Get Choices
                         </p>
@@ -58,15 +58,10 @@ export default function GetChoices() {
                 
                     <div className={styles.HomeDepot3}>
                         <p className={styles.HomeDpt3}>
-                        Instructions will be sent via email notification. 
+                        Instructions will be sent via email notification. Make sure to check your email in 24 hours.
                         </p>
                     </div>
 
-                    <div className={styles.HomeDepot4}>
-                        <p className={styles.HomeDpt4}>
-                        Make sure to check your email in 24 hours.
-                        </p>
-                    </div>
                     
                     <button className={styles.BtnChoose}>Choose</button>
                     
@@ -100,13 +95,32 @@ export default function GetChoices() {
                         height: '288px', 
                         borderRadius: '15px', 
                         left: '480px', 
-                        top: '1051px'
+                        top: '920px'
                     }}> 
                         <div className='card-body'>
                             <div className='row'>
                                 <div className='input-group'>
-                                <p className= {styles.DiyTitle1} style = {{marginTop: '16px', marginLeft: '24px'}}> {/* fix card 1 text */}
+                                <p className= {styles.DiyTitle1} style = {{marginTop: '4px', marginLeft: '216px'}}> {/* fix card 1 text */}
                                 DIY CHOICE #1: Grey Drawer $45 - $55
+                                </p>
+
+                                <p className= {styles.DiyDesc1} style = {{marginTop: '88px', marginLeft: '216px'}}> 
+                                    Follow this <a className = {styles.hyperlink1} href = "https://www.recreateddesigns.com/2021/03/turn-broken-drawer-into-wood-shelve-diy/" target="_blank">step</a> to view more our easy steps. You can save this form
+                                    and submit the offer later when you are done upcycling the product.
+                                </p>
+
+                                {/* Save button */}
+                                <button className={styles.BtnSave} style = {{marginTop: '184px', marginLeft: '216px'}}>Save</button>
+
+                                {/* Submit button */}
+                                <button className={styles.BtnSubmit1} style = {{marginTop: '184px', marginLeft: '380px'}}>Submit offer</button>
+
+                                {/* Image1 can't be placed in the right side - not working*/}
+                                <Image src={SixDrawer} width={188} height={188} className= {styles.SixDrawer} style = {{float: 'right', left: '100px'}}/>
+
+                                {/* Address text under image */}
+                                <p className= {styles.Address1} style = {{marginTop: '200px', marginLeft: '14px'}}>
+                                Store: Walmart 123 Jackson St
                                 </p>
                                 </div>
 
@@ -124,15 +138,34 @@ export default function GetChoices() {
                         height: '288px', 
                         borderRadius: '15px', 
                         left: '480px', 
-                        top: '1051px'
+                        top: '960px'
                     }}> 
                         <div className='card-body'>
                             <div className='row'>
                                 <div className='input-group'>
-                                    <p className= {styles.DiyTitle1} style = {{marginTop: '16px', marginLeft: '24px'}}> {/* fix card 1 text */}
+                                    <p className= {styles.DiyTitle1} style = {{marginTop: '4px', marginLeft: '216px'}}> {/* fix card 1 text */}
                                         DIY CHOICE #2: Book Shelf
                                         $35 - $40
                                     </p>
+
+                                    <p className= {styles.DiyDesc1} style = {{marginTop: '88px', marginLeft: '216px'}}> 
+                                    Follow this <a className = {styles.hyperlink1} href = "https://www.recreateddesigns.com/2021/03/turn-broken-drawer-into-wood-shelve-diy/" target="_blank">step</a> to view more our easy steps. You can save this form
+                                    and submit the offer later when you are done upcycling the product.
+                                </p>
+
+                                {/* Save button */}
+                                <button className={styles.BtnSave} style = {{marginTop: '184px', marginLeft: '216px'}}>Save</button>
+
+                                {/* Submit button */}
+                                <button className={styles.BtnSubmit1} style = {{marginTop: '184px', marginLeft: '380px'}}>Submit offer</button>
+
+                                {/* Image2 can't be placed in the right side - not working*/}
+                                <Image src={ShelfBook} width={188} height={188} className= {styles.SixDrawer} style = {{float: 'right', marginLeft: '100px'}}/>
+
+                                {/* Address text under image */}
+                                <p className= {styles.Address1} style = {{marginTop: '200px', marginLeft: '14px'}}>
+                                Store: Target 500 Lakewood Dr
+                                </p>
                                 </div>
 
                             </div>
