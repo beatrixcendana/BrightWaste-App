@@ -9,13 +9,18 @@
     line-height: 72px;
     color: #262261; 
     font-weight: 500; 
-    text-align: center;
-    
+    text-align: center; 
 }
 
 
 /* Two steps: Describe and Get choices */
-#LeftRight {display:flex; flex-flow:row wrap;}
+.LeftRight {
+    display:flex; 
+    flex-flow:row wrap;
+    text-align: center;
+    margin-left: '120px';
+}
+
 .ChoicesDescribe {
     font-size: 40px;
     line-height: 60px;
@@ -23,10 +28,10 @@
     font-weight: 400;
     text-align: left;
     position: absolute;
-width: 308px;
-height: 60px;
-left: 592px;
-top: 220px;
+    width: 308px;
+    height: 60px;
+    left: 592px;
+    top: 220px;
 }
 
 .GetChoice {
@@ -122,7 +127,7 @@ top: 220px;
     background: #469D8C;
     border-radius: 15px;
     border: 0;
-    left: 45%;
+    left: 34%;
 
     text-align: center;
     font-family: 'Poppins';
@@ -183,77 +188,3 @@ top: 220px;
     height: 72px;
 }
 
-.DiyDesc1 {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 33px;
-    color: #323232;
-    position: absolute;
-    width: 751px;
-    height: 66px;
-}
-
-/* link to DIY step 1 */
-.hyperlink1 {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-    text-decoration-line: underline;
-    color: #323232;
-    width: 751px;
-    height: 66px;
-}
-
-/* the Save button */
-.BtnSave {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px 32px;
-    gap: 10px;
-
-    position: absolute;
-    width: 125px;
-    height: 60px;
-    background: #469D8C;
-    border-radius: 15px!important;
-    border: 0;
-
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
-
-}
-
-/* submit button */
-.BtnSubmit1 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 12px 32px;
-    gap: 10px;
-
-    position: absolute;
-    width: 217px;
-    height: 60px;
-    background: #3C3871;
-    border-radius: 15px!important;
-    border: 0;
-
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-/* the image cant go to the right side - not working */
-.SixDrawer {
-    position: absolute;
-    width: 188px;
-    height: 188px;
-    border-radius: 15px!important;
-    object-fit: cover;
-}
