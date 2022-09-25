@@ -267,16 +267,19 @@ export default function Home() {
         
         <div className='text-center'> 
          
+         {/* button arrow delay first until hackathon done - not working for now
           <button className={styles.DirectBtn}>
           &#x2190;
-          </button>
+        </button> */}
          
           <Image src={PicSust} width={517} height={345} className='rounded mx-auto ms-4' />
           <Image src={PicPlastic} width={517} height={345} className='rounded mx-auto ms-4' /> 
         
+
+        {/* button arrow delay first until hackathon done - not working for now
           <button className={styles.DirectBtn}>
           &#x2192; 
-          </button>
+        </button> */}
 
         </div>
         
