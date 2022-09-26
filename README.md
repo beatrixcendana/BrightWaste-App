@@ -77,9 +77,9 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 
 ## Challenges that we faced
 - **For a designer, backing up to be a front-end dev**
-Since we are running out of time, designer has to help the dev working on the code.
+<p> Since we are running out of time, designer has to help the dev working on the code.</p>
 - **Creating a scenario that makes sense**
-To make sure others understand what we are building, we were thinking to create the scenario that makes the app flow better. (The scenario was explained in the little video that we created above)
+<p> To make sure others understand what we are building, we were thinking to create the scenario that makes the app flow better. (The scenario was explained in the little video that we created above). <p>
 
 ## What the future of this web
 - Implement the app so the potential seller can take a picture of their item before they sell it all from the phone.
