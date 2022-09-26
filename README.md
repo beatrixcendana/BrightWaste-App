@@ -78,9 +78,12 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 ## Challenges that we faced
 - **For a designer, backing up to be a front-end dev**
 <p> Since we are running out of time, designer has to help the dev working on the code.</p>
+
 - **Creating a scenario that makes sense**
 <p> To make sure others understand what we are building, we were thinking to create the scenario that makes the app flow better. (The scenario was explained in the little video that we created above). <p>
-
+  
+<br>
+  
 ## What the future of this web
 - Implement the app so the potential seller can take a picture of their item before they sell it all from the phone.
 - If the web app gets more attention in the US, we are trying to create this in Indonesia (where we come from), which has more waste issues due to poor waste management and lack of environmental awareness.
