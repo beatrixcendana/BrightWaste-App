@@ -78,7 +78,7 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 ## Challenges that we faced
 - **For a designer, backing up to be a front-end dev**
 Since we are running out of time, designer has to help the dev working on the code.
--**Creating a scenario that makes sense**
+- **Creating a scenario that makes sense**
 To make sure others understand what we are building, we were thinking to create the scenario that makes the app flow better. (The scenario was explained in the little video that we created above)
 
 ## What the future of this web
