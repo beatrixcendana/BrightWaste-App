@@ -1,6 +1,4 @@
-Working on it
-
-<!-- # Introduce BrightWaste - Courier Hacks 2022
+# Introduce BrightWaste - Courier Hacks 2022
 ## A Sustainable Marketplace Website that can give people options either to sell the used items directly to the shop or to upcycle the discarded items and sell it for a better price 
 
 ## Teammates
@@ -99,5 +97,3 @@ To make sure others understand what we are building, we were thinking to create 
 > Agile development process is what we take to finish up our project. We keep re-iterating again and again to make sure we are all in the same page, especially when it comes to implement the API and the framework that we use.
 
 Source: [IBM](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research), [Dosomething](https://www.dosomething.org/us/facts/11-facts-about-recycling), and [NCSU](https://content.ces.ncsu.edu/before-you-recycle-choose-to-reuse), [Weforum](https://www.weforum.org/agenda/2022/06/recycling-global-statistics-facts-plastic-paper/), [Iconscout](https://iconscout.com/) and Unsplash (Picture).
-
--->
