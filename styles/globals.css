@@ -9,4 +9,13 @@
 /* HOME PAGE */
 .home-title {
     font-size: 48px;
+} 
+
+footer {
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #E3F0EE;
+    height: 260px;
 }

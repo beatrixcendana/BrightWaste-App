@@ -3,7 +3,6 @@ import LogoUrl from '../public/images/logo.png';
 import React, { useEffect, useState } from 'react';
 import { AiOutlineUser } from "react-icons/ai";
 import Link from 'next/link';
-import '../styles/Layout.module.css';
 
 import { fetchUser, userAccessToken } from '../utils/fetchUserDetails';
 import { useRouter } from 'next/router';

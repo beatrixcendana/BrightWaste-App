@@ -1,21 +1,20 @@
 import FBIcon from '../public/images/Icon_Facebook.png';
 import GMailIcon from '../public/images/Icon_Gmail.png';
 import TWIcon from '../public/images/Icon_Twitter.png';
-import styles from '../styles/Footer.module.css';
 
 import Image from 'next/image';
 
 const Footer = () => {
     return (
-    <footer className={styles.FooterClass}>
+    <footer>
 
         <nav className='navbar navbar-expand-md'>
 
             <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
                 
                 <div className="container">
-                    <div className='collapse navbar-collapse navbar-ex1-collapse'>
-                        <ul className="nav navbar-nav">
+                    <div className='collapse navbar-collapse'>
+                        <ul className="nav navbar-nav text-center">
                             <li>
                                 <a href="" className="nav-link text-dark">About Us</a>
                             </li>
