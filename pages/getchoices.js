@@ -88,7 +88,7 @@ export default function GetChoices() {
                 </div>
 
                 {/* DIY CHOICE 1 */}
-               <div className='col-lg-12 col-md-12 col-sm-12' style={{ marginTop: '-14%' }}>
+               <div className='col-lg-12 col-md-12 col-sm-12' style={{ marginTop: '-9%' }}>
                     <div className= "card border-0 shadow shadow-sm" style={{ 
                         backgroundColor: '#E3F0EE', 
                         width: '1000px',

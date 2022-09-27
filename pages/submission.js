@@ -5,7 +5,7 @@ import { userAccessToken } from '../utils/fetchUserDetails';
 
 import { useRouter } from 'next/router';
 
-export default function Dashboard() {
+export default function Submission() {
 
     const router = useRouter();
 
@@ -21,11 +21,11 @@ export default function Dashboard() {
 
     return (<div className='content'>
         <Head>
-            <title>Dashboard</title>
+            <title>Submission</title>
         </Head>
 
         <div className='row mb-4 mt-4'>
-           Test...
+           
         </div>
 
     </div>)

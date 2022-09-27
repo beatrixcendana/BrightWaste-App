@@ -48,7 +48,8 @@ const SignInModal = () => {
     localStorage.setItem('user', JSON.stringify(providerData));
     localStorage.setItem('accessToken', JSON.stringify(refreshToken));
 
-    router.push('/dashboard');
+    window.location.href = "/submission"
+
   }
 
   return (
