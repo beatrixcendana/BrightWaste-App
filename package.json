@@ -17,9 +17,11 @@
     "dotenv": "^16.0.2",
     "firebase": "^9.10.0",
     "next": "12.3.0",
+    "node-fetch": "^3.2.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "sweetalert2": "^11.4.34"
   },
   "devDependencies": {
     "eslint": "8.23.1",

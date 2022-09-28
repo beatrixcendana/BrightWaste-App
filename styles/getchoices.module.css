@@ -19,9 +19,9 @@
     flex-flow:row wrap;
     text-align: center;
     margin-left: '120px';
-} */
+}  */
 
-/* button describe - bisa balik ke describe buat edit formnya 
+/* button describe - bisa balik ke describe buat edit formnya */
 .ChoicesDescribe {
     font-size: 40px;
     line-height: 60px;
@@ -31,8 +31,9 @@
     position: absolute;
     width: 308px;
     height: 60px;
-    left: 592px; 
-    top: 220px;
+    margin-top: 10px;
+    /* left: 592px;  */
+    /* top: 220px; */
     border: 0;
 }
 
@@ -45,11 +46,12 @@
     position: absolute;
     width: 308px;
     height: 60px;
-    left: 800px;
-    top: 220px;
+    /* margin-top: 10px; */
+    margin-left: 300px;
+    /* top: 220px; */
 }
 
-*/
+
 
 /* Line */
 .LineOne {
@@ -57,7 +59,7 @@
     width: 700px;
     height: 0px;
     /* left: 610px; */
-    /* top: 280px; */
+    margin-top: 183px;
     border: 0.5px solid #ABA5A2;
 }
 

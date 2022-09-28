@@ -1,14 +1,74 @@
 import Head from 'next/head';
 import styles from '../styles/getchoices.module.css';
+import Swal from 'sweetalert2';
+
+import { fetchUser, userAccessToken } from '../utils/fetchUserDetails';
 
 // import all images
 import Image from 'next/image';
 import SixDrawer from '../public/images/Pict 6_Drawer.jpg';
 import ShelfBook from '../public/images/Pict 7_ShelfBook.jpg';
+import { useEffect, useState } from 'react';
+
+import { useRouter } from 'next/router';
 
 export default function GetChoices() {
+
+    const [ offerData, setOfferData ] = useState('');
+   
+    const [ user, setUser ] = useState({});
+    const router = useRouter();
+
+    useEffect(() => {
+        const accessToken = userAccessToken();
+
+        if (!accessToken) {
+            Swal.fire('Please logged in first!');
+
+            return router.push("/");
+        } else {
+            const [ userInfo ] = fetchUser();            
+            setUser(userInfo);
+        }
+
+    }, [])
+    
+    const submitOffer = async (paramEmail) => {
+        
+        let postData = {
+            "email": paramEmail
+        };
+
+       Swal.fire({
+        title: 'Please wait...',
+        didOpen() {
+            Swal.showLoading();
+
+            setTimeout(() => {
+                Swal.close();
+            }, 4000)
+
+        }, 
+        allowOutsideClick: false,
+        allowEscapeKey: false,
+        allowEnterKey: false
+       })
+
+        const response = await fetch('/api/sendNotification', {
+            method: 'POST',
+            body: JSON.stringify({ postData }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+
+        const data = await response.json();
+        
+    }
+
     return (
-        <div className="container">
+
+        <div className="container" style={{ marginBottom: '300px' }}>
 
             <Head>
                 <title>Get Choices</title>
@@ -18,13 +78,20 @@ export default function GetChoices() {
             
                 <p className={styles.ChoicesTitle}>Product Upload Form</p>
              
-                <div className="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" className="btn btn-light">Describe</button>
-                    <button type="button" className="btn btn-light">Get Choices</button>
+                <div className={styles.LeftRight}>
+                    <button className = {styles.ChoicesDescribe}> {/* Describe text */}
+                        Describe
+                    </button>
+                    <p className= {styles.GetChoice}> {/* get choices text */}
+                        Get Choices
+                    </p>
+                    <div style={{ clear: 'both' }}></div>
                 </div>
+
+                <div className={styles.LineOne}></div>
     
                 {/* 1ST CHOICE */}
-                <div className='col-lg-12 col-sm-12 col-md-12'>
+                <div className='col-lg-12 col-sm-12 col-md-12' style={{ marginTop: '100px' }}>
                     <p className={styles.FirstChoice}>
                         First choice: Sell it to Home Depot
                     </p>
@@ -39,7 +106,11 @@ export default function GetChoices() {
                     </p>
                 </div>
 
-                <button className={styles.BtnChoose}>Choose</button>
+                <button className={styles.BtnChoose} 
+                style={{ marginTop: '430px',
+                textAlign: 'center'
+                }}
+                >Choose</button>
 
                 {/* 2nd CHOICE */}
                 <div className='col-lg-12 col-sm-12 col-md-12'>
@@ -81,7 +152,10 @@ export default function GetChoices() {
                                     <button className={styles.BtnSave} style = {{marginTop: '184px', marginLeft: '216px'}}>Save</button>
 
                                     {/* Submit button */}
-                                    <button className={styles.BtnSubmit1} style = {{marginTop: '184px', marginLeft: '380px'}}>Submit offer</button>
+                                    <button className={styles.BtnSubmit1} 
+                                    style = {{marginTop: '184px', marginLeft: '380px'}}
+                                    onClick={ () => submitOffer(user.email) }
+                                    >Submit offer</button>
 
                                     {/* Image1 can't be placed in the right side - not working*/}
                                     <Image src={SixDrawer} width={188} height={188} className= {styles.SixDrawer} style = {{float: 'right', left: '100px'}}/>
@@ -125,7 +199,10 @@ export default function GetChoices() {
                                     <button className={styles.BtnSave} style = {{marginTop: '184px', marginLeft: '216px'}}>Save</button>
 
                                     {/* Submit button */}
-                                    <button className={styles.BtnSubmit1} style = {{marginTop: '184px', marginLeft: '380px'}}>Submit offer</button>
+                                    <button className={styles.BtnSubmit1} 
+                                    style = {{marginTop: '184px', marginLeft: '380px'}}
+                                    onClick={ () => submitOffer(user.email) }
+                                    >Submit offer</button>
 
                                     {/* Image2 can't be placed in the right side - not working*/}
                                     <Image src={ShelfBook} width={188} height={188} className= {styles.SixDrawer} style = {{float: 'right', marginLeft: '100px'}}/>
