@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /* import medium font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); /* import regular font */
+
+/* Product Upload Form title */
+.ChoicesTitle {
+    font-size: 48px;
+    line-height: 72px;
+    color: #262261; 
+    font-weight: 500; 
+    text-align: center; 
+}
+
+
+/* Two steps: Describe and Get choices */
+/* .LeftRight {
+    display:flex; 
+    flex-flow:row wrap;
+    text-align: center;
+    margin-left: '120px';
+}  */
+
+/* button describe - bisa balik ke describe buat edit formnya */
+.ChoicesDescribe {
+    font-size: 40px;
+    line-height: 60px;
+    color: #469D8C; 
+    font-weight: 400;
+    text-align: left;
+    position: absolute;
+    width: 308px;
+    height: 60px;
+    margin-top: 10px;
+    /* left: 592px;  */
+    /* top: 220px; */
+    border: 0;
+}
+
+.GetChoice {
+    font-size: 40px;
+    line-height: 60px;
+    color: #1C148D; 
+    font-weight: 600;
+    text-align: right;
+    position: absolute;
+    width: 308px;
+    height: 60px;
+    /* margin-top: 10px; */
+    margin-left: 300px;
+    /* top: 220px; */
+}
+
+
+
+/* Line */
+.LineOne {
+    position: absolute;
+    width: 700px;
+    height: 0px;
+    /* left: 610px; */
+    margin-top: 183px;
+    border: 0.5px solid #ABA5A2;
+}
+
+/* First choice text */
+.FirstChoice {
+    font-size: 32px;
+    line-height: 48px;
+    color: #323232; 
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    height: 48px;
+    margin-top: 30px;
+    /* left: 692px; */
+    /* top: 320px; */
+    /* width: 550px; */
+    height: 48px;
+}
+
+/* Home Depot Choice text style */
+.HomeDpt1 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #323232; 
+    font-weight: 400;
+    text-align: center;
+    margin-top: 80px;
+    /* left: 698px; */
+    width: 524px;
+    /* height: 36px; */
+    position: absolute;
+}
+
+.HomeDpt2 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #323232; 
+    font-weight: 400;
+    text-align: center;
+    margin-top: 500px;
+    /* left: 830px; */
+    width: 261px;
+    /* height: 36px; */
+    position: absolute;
+}
+
+.HomeDpt3 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #323232; 
+    font-weight: 400;
+    text-align: center;
+    margin-top: 130px;
+    /* left: 686px; */
+    position: absolute;
+    width: 548px;
+    /* height: 72px; */
+}
+
+
+/* Button choose style */
+.BtnChoose {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 158px;
+    height: 60px;
+    background: #469D8C;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 380px;
+    /* left: 881px; */
+
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    /* top: 560px; */
+}
+
+/* OR text */
+.OrTxt {
+    font-size: 32px;
+    line-height: 48px;
+    color: #323232; 
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    height: 48px;
+    /* left: 937px; */
+    margin-top: 330px;
+}
+
+/* Upcycle option */
+.SecondChoice {
+    font-size: 32px;
+    line-height: 48px;
+    color: #323232; 
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    height: 48px;
+    /* left: 752px; */
+    margin-top: 400px;
+    width: 440px;
+    height: 48px;
+}
+
+.UpDesc {
+    font-size: 24px;
+    line-height: 36px;
+    color: #323232; 
+    font-weight: 400;
+    text-align: center;
+    margin-top: 450px;
+    /* left: 694px; */
+    position: absolute;
+}
+
+/* DIY Title #1 */
+.DiyTitle1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    position: absolute;
+    width: 340px;
+    height: 72px;
+    color: #323232;
+}
+
+/* DIY Choice #1 subtext */
+.DiyDesc1 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #323232;
+    position: absolute;
+    width: 751px;
+    height: 66px;
+}
+
+/* link to DIY step 1 */
+.hyperlink1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: #323232;
+    width: 751px;
+    height: 66px;
+}
+
+/* change color on hyperlink step */
+.hyperlink1:hover {
+    color:#469D8C;
+}
+
+/* the Save button */
+.BtnSave {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 125px;
+    height: 60px;
+    background: #469D8C;
+    border-radius: 15px!important;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* submit button */
+.BtnSubmit1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 217px;
+    height: 60px;
+    background: #3C3871;
+    border-radius: 15px!important;
+    border: 0;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* the image cant go to the right side - not working */
+.SixDrawer {
+    position: relative;
+    border-radius: 15px!important;
+    object-fit: fill;
+    object-position: right top; 
+    display: flex;
+}
+
+/* Address of store under image */
+.Address1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #323232;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    text-align: center;
+}
+

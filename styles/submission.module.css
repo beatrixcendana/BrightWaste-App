@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); /* import medium font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); /* import regular font */
+
+/* the image cant go to the right side - not working */
+.images {
+    position: relative;
+    border-radius: 15px!important;
+    object-fit: fill;
+    object-position: right top; 
+    display: flex;
+    /* height: 'auto', */
+}
+
+.labelpayment {
+    background-color: #C9FFF7;
+    border-radius: 15px!important;
+    width: 219px;
+    height: 76px;
+}
+
+/* HIDE RADIO STYLES */
+.input[type="radio"] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+.inputRadio[type="radio"] {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.inputRadio[type="radio"]:checked {
+    outline: 2px solid #f00;
+}
