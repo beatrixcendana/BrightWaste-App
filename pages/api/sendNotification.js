@@ -12,12 +12,12 @@ export default function handler(req, res) {
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
-            Authorization: 'Bearer dk_prod_EARTWSHV06M1ABG9V5AFB1MV658Y'
+            Authorization: `Bearer ${process.env.COURIER_API_KEY}`
         },
         body: JSON.stringify({
             "message": {
             "to": {
-                "email": "tanayayoga@gmail.com"
+                "email": req.body.email
             },
             "template": "9YEF2M5R76MMZXMGJTHT85P8WWQX"
             }
