@@ -1,12 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import Swal from 'sweetalert2';
 
 import Head from 'next/head';
-import { userAccessToken } from '../utils/fetchUserDetails';
+import { userAccessToken, fetchUser } from '../utils/fetchUserDetails';
 
 import { useRouter } from 'next/router';
 
 export default function Submission() {
 
+    const [ user, setUser ] = useState({});
     const router = useRouter();
 
     const navigateTo = () => {
@@ -16,10 +18,16 @@ export default function Submission() {
 
     useEffect(() => {
 
-        async function fetchData() {
-            const accessToken = userAccessToken();
+        const accessToken = userAccessToken();
 
-            if (!accessToken) return router.push('/');
+        if (!accessToken) {
+
+            window.location.href = "/";
+            Swal.fire('Please logged in first!');
+
+        } else {
+            const [ userInfo ] = fetchUser();            
+            setUser(userInfo);
         }
        
     }, [])

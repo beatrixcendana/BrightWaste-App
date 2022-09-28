@@ -23,9 +23,8 @@ export default function GetChoices() {
         const accessToken = userAccessToken();
 
         if (!accessToken) {
+            window.location.href = "/";
             Swal.fire('Please logged in first!');
-
-            return router.push("/");
         } else {
             const [ userInfo ] = fetchUser();            
             setUser(userInfo);
