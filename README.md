@@ -1,6 +1,4 @@
-Working on it
-
-<!-- # Introduce BrightWaste - Courier Hacks 2022
+# Introduce BrightWaste - Courier Hacks 2022
 ## A Sustainable Marketplace Website that can give people options either to sell the used items directly to the shop or to upcycle the discarded items and sell it for a better price 
 
 ## Teammates
@@ -50,6 +48,7 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 - Earn extra money while at the same time helping the environment by reducing waste.
 - Provide a safe transaction because you don't directly sell the products to individuals. Instead, you sell it to the store which has provided CCTV, and it will avoid any scam transactions.
 
+<br>
 
 ## Explanation of problem it solves
 ### For government and waste department:
@@ -70,6 +69,7 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 ![Notion](https://img.shields.io/badge/-Notion-black?logo=notion&style=social)&nbsp;&nbsp; 
 ![Figma](https://img.shields.io/badge/-Figma-black?logo=figma&style=social)&nbsp;&nbsp; 
 
+<br>
 
 ## Technologies (API and Frontend) and how it is integrated
 - **Framework: Next.js**
@@ -79,16 +79,20 @@ We also analyzed the competitors deeper, including OfferUp, Facebook Marketplace
 
 ## Challenges that we faced
 - **For a designer, backing up to be a front-end dev**
-Since we are running out of time, designer has to help the dev working on the code.
--**Creating a scenario that makes sense**
-To make sure others understand what we are building, we were thinking to create the scenario that makes the app flow better. (The scenario was explained in the little video that we created above)
+<p> Since we are running out of time, designer has to help the dev working on the code.</p>
 
+- **Creating a scenario that makes sense**
+<p> To make sure others understand what we are building, we were thinking to create the scenario that makes the app flow better. (The scenario was explained in the little video that we created above). <p>
+  
+<br>
+  
 ## What the future of this web
 - Implement the app so the potential seller can take a picture of their item before they sell it all from the phone.
 - If the web app gets more attention in the US, we are trying to create this in Indonesia (where we come from), which has more waste issues due to poor waste management and lack of environmental awareness.
 - Add newsletter feature and proper notification between seller and store.
 - Get notified when there is a selling challenge around them.
 
+<br>
 
 ## What we enjoyed and learned
 - <strong> Building the app web within two weeks of the timeframe </strong>
@@ -98,6 +102,6 @@ To make sure others understand what we are building, we were thinking to create 
 - **Learning the next.js and implementing the Courier API at the same time**
 > Agile development process is what we take to finish up our project. We keep re-iterating again and again to make sure we are all in the same page, especially when it comes to implement the API and the framework that we use.
 
+<br>
+  
 Source: [IBM](https://www.ibm.com/thought-leadership/institute-business-value/report/2022-sustainability-consumer-research), [Dosomething](https://www.dosomething.org/us/facts/11-facts-about-recycling), and [NCSU](https://content.ces.ncsu.edu/before-you-recycle-choose-to-reuse), [Weforum](https://www.weforum.org/agenda/2022/06/recycling-global-statistics-facts-plastic-paper/), [Iconscout](https://iconscout.com/) and Unsplash (Picture).
-
--->
