@@ -4,22 +4,22 @@ import fetch from 'node-fetch';
 export default function handler(req, res) {
     if (req.method === 'POST') {
 
+        // Dependencies to install:
+        // $ npm install node-fetch --save
+
         const options = {
         method: 'POST',
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
-            Authorization: `Bearer ${process.env.COURIER_API_KEY}`
+            Authorization: 'Bearer dk_prod_EARTWSHV06M1ABG9V5AFB1MV658Y'
         },
         body: JSON.stringify({
             "message": {
             "to": {
-                "email": req.body.email
+                "email": "tanayayoga@gmail.com"
             },
-            "content": {
-                "title": "Subject",
-                "body": "new message!"
-            }
+            "template": "9YEF2M5R76MMZXMGJTHT85P8WWQX"
             }
         })
         };

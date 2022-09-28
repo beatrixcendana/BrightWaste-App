@@ -12,7 +12,6 @@ export default function Submission() {
     const router = useRouter();
 
     const navigateTo = () => {
-        // ini buah biar ngarah ke page get choices...
        router.push('/getchoices')
     }
 
@@ -46,7 +45,6 @@ export default function Submission() {
                     </div>
 
                     <div className='row'>
-                        {/* isi radio button sama background pake image */}
                         <div className='col-sm-2 col-md-2 col-lg-2 bg-light p-4 me-2'>box 1</div>
                         <div className='col-sm-2 col-md-2 col-lg-2 bg-light p-4 me-2'>box 2</div>
                         <div className='col-sm-2 col-md-2 col-lg-2 bg-light p-4 me-2'>box 3</div>
@@ -66,11 +64,9 @@ export default function Submission() {
 
                     <div className='form-group row mt-3 mb-3'>
                         <label>Price offer (in USD)&#63; </label>
-                        {/* text field background ubah jd ijo sesuaiin di mockup */}
                         <input type='number' placeholder='5 pcs' className='form-control border-0 bg-light'/>
                     </div>
 
-                    {/* buat css di next js ikutin caranya di halaman getchoices.js */}
                     <div className='form-group row mt-3 mb-3'>
                         <label>Describe the Item (up to 500 words)</label>
                         <textarea cols="5" rows="5" className='form-control border-0 bg-light'></textarea>
