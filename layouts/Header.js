@@ -31,6 +31,7 @@ const Header = () => {
 
 
     return (<nav className="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm">
+
         
         <Link href="/">
             <Image src={LogoUrl} layout='fixed' width={200} height={50}/>
@@ -74,7 +75,7 @@ const Header = () => {
                                 <a href="#!" className="dropdown-item" onClick={signOut}>Sign Out</a>
                             </li>
                         </ul>
-                       
+                    
                     </li>: 
 
                     <li className="nav-item p-2 mt-2 mr-2">
@@ -82,10 +83,11 @@ const Header = () => {
                         style={{ backgroundColor: '#262261E5', color: '#fff', fontSize: '24px', width: '182px'}}>Join Us</a> {/* change button font size and button width */}
                     </li>
                 }
-             
+            
             </ul>
         
         </div>
+
     </nav>)
 }
 

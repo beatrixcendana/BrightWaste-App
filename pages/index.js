@@ -81,24 +81,24 @@ const SignInModal = () => {
 export default function Home() {
 
   return (
-    <div className="content">
+    <div>
       <Head>
         <title>Homepage</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="viewport" content="initial-scale=1.0,width=device-width" />
       </Head>
       {/* SECTION 1 LANDING PAGE (THE TOP) */}
 
       <SignInModal/>
 
-      <div className="row mb-4 mt-4" style={{ marginTop: '15%', marginBottom: '5%' }}>
+      <div className="row mb-4 mt-4" style={{ marginTop: '35%', marginBottom: '5%' }}>
 
-        <div className="col-md-6 col-lg-6 col-sm-4">
+        <div className="col-6" style={{ marginTop: '3%' }}>
           <div className='text-center'>
             <Image src={EarthImgUrl} width={591} height={677} /> 
           </div>
         </div>
 
-        <div className="col-md-6 col-lg-5 col-sm-12">
+        <div className="col-6 p-5">
           <p className={styles.head}>
             Get higher value for your used materials 
             and <span className="fw-bold">help earth to reduce
@@ -107,42 +107,45 @@ export default function Home() {
           </p>
 
           <div className='row'>
-            <div className={styles.search}>
-              <div className='input-group'>
+            <div className='col-4'>
+              <div className={styles.search}>
+                <div className='input-group flex-nowrap'>
 
-                {/* TEXTFIELD INPUT ITEM NAME */}
-                <Image src={SearchIconUrl} width={40} height={40}/> {/* fix searchicon size */}
-                <input placeholder="What type of stuff are you looking for?" className={styles.input} />
+                  {/* TEXTFIELD INPUT ITEM NAME */}
+                  <Image src={SearchIconUrl} width={40} height={40}/> {/* fix searchicon size */}
+                  <input placeholder="What type of stuff are you looking for?" className={styles.input} />
 
-                {/* TEXTFIELD SET LOCATION */}
-                <Image src={LocationIconUrl} width={40} height={40}/> {/* fix locationicon size */}
-                <input placeholder="Location" className={styles.LocationInput} />
+                  {/* TEXTFIELD SET LOCATION */}
+                  <Image src={LocationIconUrl} width={40} height={40}/> {/* fix locationicon size */}
+                  <input placeholder="Location" className={styles.LocationInput} />
 
-              </div>
-            </div>  
-
-            <div className='col-md-3 col-sm-12 col-lg-3 mt-3 mb-4'>
-              <button className={styles.BtnFindOut}>Find Out</button>
+                </div>
+              </div>  
             </div>
           </div>
 
-          <div className='row mt-4 mb-4'>
-          <Image src={PotImgUrl} width={219} height={219} className= {styles.PotImgUrl}/>
-          <Image src={WasteImgUrl} width={219} height={219} className= {styles.WasteImgUrl}/> {/* margin not working, image cluttered */}
-          <Image src={CommunityImgUrl} width={219} height={219} className= {styles.CommunityImgUrl}/> {/* margin not working, image cluttered */}
-            {/* <Image src={PotImgUrl} width={219} height={219} className='rounded mx-auto d-block me-3'/>
-            <Image src={WasteImgUrl} width={219} height={219} className='rounded mx-auto d-block me-3'/>
-            <Image src={CommunityImgUrl} width={219} height={219} className='rounded mx-auto d-block'/> */}
+          <div className='row mt-3 mb-3'>
+            <button className={styles.BtnFindOut}>Find Out</button>
           </div>
 
-
+          <div className='row mt-4 mb-4'>
+            <div className='col-4'>
+              <Image src={PotImgUrl} width={219} height={219} className= {styles.PotImgUrl}/>
+            </div>
+            <div className='col-4'>
+              <Image src={WasteImgUrl} width={219} height={219} className= {styles.WasteImgUrl}/> 
+            </div>
+            <div className='col-4'>
+              <Image src={CommunityImgUrl} width={219} height={219} className= {styles.CommunityImgUrl}/> 
+            </div>
+          </div>
         </div>
 
       </div>
 
       {/* SECTION 2 HOW IT WORKS */}
       <div className='row' style={{ marginTop: '5%', marginBottom: '5%' }}>
-        <div className='col-lg-6 col-md-6 col-sm-4'>
+        <div className='col-6'>
           
           <div className='text-center'>
 
@@ -159,7 +162,7 @@ export default function Home() {
 
         </div>
         
-        <div className='col-lg-6 col-md-6 col-sm-4'>
+        <div className='col-6'>
 
           <p className={styles.subhead}>How it works?</p>
 

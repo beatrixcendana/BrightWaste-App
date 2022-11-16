@@ -13,8 +13,9 @@ const Footer = () => {
             <div className='col-12 col-sm-12 col-md-12 col-lg-12'>
                 
                 <div className="container">
-                    <div className='collapse navbar-collapse'>
-                        <ul className="nav navbar-nav text-center">
+                    <div className='collapse navbar-collapse collapse navbar-collapse text-center align-items-center justify-content-center'
+                    >
+                        <ul className="nav navbar-nav">
                             <li>
                                 <a href="" className="nav-link text-dark">About Us</a>
                             </li>
